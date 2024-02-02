@@ -1,0 +1,64 @@
+coche 28000 euros
+a 8 años
+400 euros/mes -> acabas pagando 39000 euros
+
+seguro 8 años -> 4800 euros
+
+reparaciones -> 2000 euros
+revisiones-> 1000 euros
+
+total: 46.800
+y tienes un coche viejo 6000 euros
+
+40.000 
+
+
+renting 500 euros/mes -> 48.000
+y no tienes coche
+estas obligado a renovarlo
+
+SAle 80 euros al mes mas caro el renting
+
+
+System Integrator & Workflow specialist
+
+
+mkdir power
+mkdir raw
+mkdir tmp
+ Move-Item -Path "*" -Destination ..\tmp\
+mv *_emot*.* ./power/
+mv *_raw*.* ./raw/
+cd power
+
+====
+
+ get-childitem -recurse -Filter "*_values.csv*" | rename-item -newname { $_.name -replace "javier","01"}
+ get-childitem -recurse -Filter "*_values.csv*" | rename-item -newname { $_.name -replace "emotion_values","EEGPOW"}
+ get-childitem -recurse -Filter "*_values.csv*" | rename-item -newname { $_.name -replace "raw_values","EEGRAW"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_1_","_01_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_2_","_02_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_3_","_03_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_4_","_04_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_5_","_05_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_6_","_06_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_7_","_07_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_8_","_08_"}
+ get-childitem -recurse -Filter "*EEG*" | rename-item -newname { $_.name -replace "_9_","_09_"}
+ get-childitem -recurse -Filter "*EEG*" |rename-item -newname { $_.name.substring(0,$_.name.length-3) }
+ $count=100;
+ get-childitem -recurse -Filter "*EEG*" |rename-item -newname {"{0}_{1}.csv" -f $_.name,  $script:count++}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 

@@ -1,0 +1,7 @@
+person,questionCode,timediff,signalLevel,blinkStrength,attention,meditation,lowGamma,highGamma,highAlpha,delta,highBeta,lowAlpha,lowBeta,theta
+silvia,1,5.362275299999999,54,0,0,0,0,0,0,0,0,0,0,0
+silvia,1,7.0812087,200,0,0,0,0,0,0,0,0,0,0,0
+silvia,1,8.1224186,200,0,0,0,0,0,0,1,0,0,0,0
+silvia,1,9.200938899999997,200,0,0,0,0,2,0,9,1,1,0,0
+silvia,1,11.077120299999997,200,0,0,0,300,13180,479,1681,453,170,296,178
+silvia,1,12.104576999999999,200,0,0,0,4965,121701,4324,3156,1787,6606,3486,1426

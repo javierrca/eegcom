@@ -1,0 +1,4 @@
+person,questionCode,timediff,signalLevel,blinkStrength,attention,meditation,lowGamma,highGamma,highAlpha, delta,highBeta,lowAlpha,lowBeta, theta
+javier_train,30,1.2222855999999922,0,0,60,51,4990,4946,17395,24304,12357,1007,9463,23507
+javier_train,30,2.2470722999999992,0,0,48,50,2345,1768,35316,79759,14043,30750,35829,37529
+javier_train,30,3.201384499999989,0,0,63,48,5080,2126,12261,17667,17006,1166,6726,14217

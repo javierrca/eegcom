@@ -1,0 +1,3 @@
+person,questionCode,timediff,signalLevel,blinkStrength,attention,meditation,lowGamma,highGamma,highAlpha, delta,highBeta,lowAlpha,lowBeta, theta
+javier_test,2,1.671095300000001,0,0,38,51,3113,1291,8458,10741,15478,22763,5982,17345
+javier_test,2,2.6683181000000005,0,0,23,69,6947,2739,23609,26549,13408,20735,8806,11725
